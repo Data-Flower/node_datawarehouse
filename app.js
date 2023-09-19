@@ -117,7 +117,7 @@ app.get('/model-metadata', (req, res) => {
 app.post('/predict', (req, res) => {
     res.send("학습된 모델을 사용하여 새로운 데이터에 대한 예측을 수행합니다");
 });
-
+    
 //#endregion 7 AI 머신 러닝 연동
 
 app.post('/process-csv', upload.single('csvFile'), (req, res) => {
